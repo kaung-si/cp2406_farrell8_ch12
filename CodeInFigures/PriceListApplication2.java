@@ -17,4 +17,5 @@ public class PriceListApplication2
          PriceList.displayPrice(MAXITEM);
       }
    }
+
 }

@@ -13,8 +13,8 @@ class UninitializedVariableTest
       catch(Exception e)
       {
          System.out.println("Exception occurred");
-      }  
-      System.out.println("x is " + x); 
+      }
+      System.out.println("x is " + x);
    }
 }
       

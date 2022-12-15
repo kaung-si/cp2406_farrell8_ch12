@@ -7,7 +7,7 @@ public class UseCustomerAccount
       double balance;
       String input;
       input = JOptionPane.showInputDialog(null,
-         "Enter account number");
+              "Enter account number");
       num = Integer.parseInt(input);
       input = JOptionPane.showInputDialog(null, "Enter balance due");
       balance = Double.parseDouble(input);
@@ -15,13 +15,13 @@ public class UseCustomerAccount
       {
          CustomerAccount ca = new CustomerAccount(num, balance);
          JOptionPane.showMessageDialog(null, "Customer #" +
-            num + " has a balance of $" + balance);
+                 num + " has a balance of $" + balance);
       }
       catch( HighBalanceException hbe)
       {
          JOptionPane.showMessageDialog(null, "Customer #" +
-            num + " has a balance of $" + balance +
-            " which is higher than the credit limit");
+                 num + " has a balance of $" + balance +
+                 " which is higher than the credit limit");
       }
    }
 }

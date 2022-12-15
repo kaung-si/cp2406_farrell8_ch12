@@ -16,4 +16,5 @@ public class PriceListApplication1
          System.out.println("Price is $0");
       }
    }
+
 }

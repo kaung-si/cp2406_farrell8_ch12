@@ -11,6 +11,6 @@ public class Division
       denominator = input.nextInt();
       result = numerator / denominator;
       System.out.println(numerator + " / " + denominator +
-         " = " + result);
+              " = " + result);
    }
 }

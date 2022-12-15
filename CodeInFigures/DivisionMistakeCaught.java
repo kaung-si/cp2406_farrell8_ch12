@@ -13,7 +13,7 @@ public class DivisionMistakeCaught
       {
          result = numerator / denominator;
          System.out.println(numerator + " / " + denominator +
-            " = " + result);
+                 " = " + result);
       }
       catch(ArithmeticException mistake)
       {
@@ -22,4 +22,3 @@ public class DivisionMistakeCaught
       System.out.println("End of program");
    }
 }
-

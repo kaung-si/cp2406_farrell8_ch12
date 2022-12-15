@@ -24,5 +24,6 @@ public class EnteringIntegers
          System.out.print(numberList[x] + " ");
       System.out.println();
    }
+
 }
       

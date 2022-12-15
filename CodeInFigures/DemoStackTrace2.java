@@ -18,7 +18,7 @@ public class DemoStackTrace2
       }
       System.out.println("methodA() ends normally.");
       System.out.println("Application could continue " +
-         "from this point.");
+              "from this point.");
    }
    public static void methodB()
    {
